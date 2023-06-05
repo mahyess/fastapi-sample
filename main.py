@@ -4,5 +4,5 @@ app = FastAPI()
 
 
 @app.get("/")
-async def root():
+async def root()
     return {"message": Hello World with error}
