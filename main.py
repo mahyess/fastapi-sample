@@ -6,5 +6,5 @@ app = FastAPI()
 @app.get("/")
 async def root():
     import datetime
-    hello = 3
+    hello = "final test"
     return {"message": "Hello World without errors"}
